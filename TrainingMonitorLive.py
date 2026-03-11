@@ -10,6 +10,7 @@ import matplotlib.pyplot as plt
 import os
 from tensorflow.keras.callbacks import Callback
 
+DATA_DIR = "data\Monitor"
 
 class TrainingMonitorLive(Callback):
     def __init__(self, figPath=None, jsonPath=None):
@@ -79,6 +80,6 @@ model.compile(loss="sparse_categorical_crossentropy", optimizer=SGD(0.01), metri
 
 
 
-callbacks = [TrainingMonitorLive(figPath="training_monitor.png", jsonPath="training_monitor.json")]
+callbacks = [TrainingMonitorLive(figPath=DATA_DIR+"training_monitor.png", jsonPath=DATA_DIR+"training_monitor.json")]
 
 model.fit(trainX, trainY, validation_data=(testX, testY), epochs=3, callbacks=callbacks, verbose=1)
