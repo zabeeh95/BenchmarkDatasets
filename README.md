@@ -1,59 +1,182 @@
-**📊 BenchmarkDatasets: Algorithm & Neural Network Practice**
+**📊 Benchmark Datasets & Deep Learning Architectures**
 
-A hands-on repository for experimenting with classical algorithms and neural network models using standard benchmark
-datasets. Designed to understand the working, performance, and application of both traditional algorithms and deep
-learning models.
+A hands-on deep learning repository focused on understanding modern neural network architectures, data pipelines, and model optimization techniques using standard benchmark datasets.
 
 **🚀 Project Overview**
 
-This repository is focused on learning and experimenting with algorithms and neural networks by applying them to
-benchmark datasets.
+This project is designed to build strong practical intuition by implementing models from scratch and applying them to real-world datasets.
 
-Datasets Used:
+The goal is not just to use models — but to understand:
 
-MNIST – handwritten digits for image classification
+How data flows through networks
+How different architectures behave
+How training, evaluation, and optimization work
 
+**📂 Datasets**
+
+Experiments are performed on widely used benchmark datasets:
+
+MNIST – Handwritten digit classification
 CIFAR-10 – 10-class color image classification
+Dogs vs Cats – Binary image classification
+Iris – Multiclass classification on structured data
 
-Iris – classic dataset for multiclass classification
+**🧠 Architectures & Implementations**
+🔹 Neural Networks
+Feedforward Neural Networks (ANN)
+🔹 Convolutional Neural Networks (CNNs)
 
+Implemented using modern TensorFlow practices:
 
-Neural Networks Implemented:
+LeNet
+AlexNet
+VGG (MiniVGG)
+GoogLeNet (Inception)
+ResNet
+🔹 Transformers
 
-Feedforward Neural Networks – for structured data and regression/classification tasks
+Built from scratch for deep understanding:
 
-Convolutional Neural Networks (CNNs) – for image recognition tasks (MNIST, CIFAR-10)
+Encoder
+Decoder
+Encoder–Decoder (Full Transformer)
+🔹 Vision Transformer (ViT)
+Patch embedding
+Self-attention on images
+Transformer-based image classification
 
-Recurrent Neural Networks (RNNs) – for sequence prediction or text-based experiments
+**⚙️ Core Concepts Covered**
+🔸 Data Handling
+Image preprocessing
+Data normalization
+Data augmentation techniques
+🔸 Training Understanding
+Loss functions and optimization
+Training vs inference behavior
+Shape tracking and debugging
+🔸 Model Optimization
+Quantization (basic understanding)
+Performance considerations
+🔥 Frameworks & Tools
+Python
+TensorFlow / Keras
+PyTorch (for additional implementations)
+NumPy
+scikit-learn
+Matplotlib
 
-Each project demonstrates how data flows through models, training and validation processes, and performance evaluation
-metrics such as accuracy, loss, and RMSE.
+**📈 Features**
+Modular and clean implementations
+Modern TensorFlow coding practices
+PyTorch equivalents for comparison
+Step-by-step experimentation
+Focus on understanding internals
+Visualizations and debugging support
 
-**🛠 Features**
+**🎯 Key Learning Outcomes**
+Understand CNNs vs Transformers deeply
+Learn how attention mechanisms work
+Build models from scratch
+Apply preprocessing and augmentation correctly
+Explore modern architectures like Vision Transformers
+Gain hands-on experience with both TensorFlow and PyTorch
 
-Modular implementations of classical algorithms and neural networks
+**📌 Highlights**
+Implemented all major CNN architectures
+Built Transformers from scratch
+Explored Vision Transformers (ViT)
+Practiced data augmentation & preprocessing
+Worked with both TensorFlow and PyTorch
+Focused on learning by implementation
 
-Hands-on experiments with benchmark datasets
+**📊 Benchmark Datasets & Deep Learning Architectures**
 
-Jupyter notebooks demonstrating step-by-step model building, training, and evaluation
+A hands-on deep learning repository focused on understanding modern neural network architectures, data pipelines, and model optimization techniques using standard benchmark datasets.
 
-Visualizations for model performance and predictions
+**🚀 Project Overview**
 
-**📊 Benchmark Datasets & Neural Networks | Python & Deep Learning**
+This project is designed to build strong practical intuition by implementing models from scratch and applying them to real-world datasets.
 
-Developed a hands-on portfolio to practice classical algorithms and neural network models using standard benchmark
-datasets including MNIST, CIFAR-10, Iris, and Boston Housing. Implemented feedforward, convolutional, and recurrent
-neural networks to understand model training, evaluation, and performance across classification and regression tasks.
+The goal is not just to use models — but to understand:
 
-**Highlights:**
+How data flows through networks
+How different architectures behave
+How training, evaluation, and optimization work
 
-Applied neural networks and classical algorithms to benchmark datasets
+**📂 Datasets**
 
-Trained and evaluated CNNs for image recognition tasks
+Experiments are performed on widely used benchmark datasets:
 
-Built RNNs for sequence modeling experiments
+MNIST – Handwritten digit classification
+CIFAR-10 – 10-class color image classification
+Dogs vs Cats – Binary image classification
+Iris – Multiclass classification on structured data
 
-Gained practical experience in Python, TensorFlow/Keras, and scikit-learn
+**🧠 Architectures & Implementations**
+🔹 Neural Networks
+Feedforward Neural Networks (ANN)
+🔹 Convolutional Neural Networks (CNNs)
 
-This project demonstrates strong problem-solving skills, deep learning understanding, and algorithmic proficiency in
-real-world datasets.
+Implemented using modern TensorFlow practices:
+
+LeNet
+AlexNet
+VGG (MiniVGG)
+GoogLeNet (Inception)
+ResNet
+🔹 Transformers
+
+Built from scratch for deep understanding:
+
+Encoder
+Decoder
+Encoder–Decoder (Full Transformer)
+🔹 Vision Transformer (ViT)
+Patch embedding
+Self-attention on images
+Transformer-based image classification
+
+**⚙️ Core Concepts Covered**
+🔸 Data Handling
+Image preprocessing
+Data normalization
+Data augmentation techniques
+🔸 Training Understanding
+Loss functions and optimization
+Training vs inference behavior
+Shape tracking and debugging
+🔸 Model Optimization
+Quantization (basic understanding)
+Performance considerations
+
+**🔥 Frameworks & Tools**
+Python
+TensorFlow / Keras
+PyTorch (for additional implementations)
+NumPy
+scikit-learn
+Matplotlib
+
+**📈 Features**
+Modular and clean implementations
+Modern TensorFlow coding practices
+PyTorch equivalents for comparison
+Step-by-step experimentation
+Focus on understanding internals
+Visualizations and debugging support
+
+**🎯 Key Learning Outcomes**
+Understand CNNs vs Transformers deeply
+Learn how attention mechanisms work
+Build models from scratch
+Apply preprocessing and augmentation correctly
+Explore modern architectures like Vision Transformers
+Gain hands-on experience with both TensorFlow and PyTorch
+
+**📌 Highlights**
+Implemented all major CNN architectures
+Built Transformers from scratch
+Explored Vision Transformers (ViT)
+Practiced data augmentation & preprocessing
+Worked with both TensorFlow and PyTorch
+Focused on learning by implementation
